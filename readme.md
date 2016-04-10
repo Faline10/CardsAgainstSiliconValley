@@ -1,5 +1,5 @@
-# React Boilerplate
-By: **Fawn Bertram**
+# Cards Against Silicon Valley
+By: **Fawn Bertram, Soroush Mehraein, Jordan Pedraza**
 
 ## Installation:
 * `npm install webpack -g`
@@ -17,5 +17,3 @@ By: **Fawn Bertram**
 * Babel
 * ESLint
 * JSX
-
-A description of how to create this boilerplate from scratch and what the different parts do can be found in my blog: ["React in 10 Minutes"](http://example.com)

@@ -48,7 +48,13 @@
 
 	var React = __webpack_require__(1);
 	var ReactDOM = __webpack_require__(32);
-	var Layout = __webpack_require__(166);
+	// var Layout = require('./components/Layout.jsx');
+
+	ReactDOM.render(React.createElement(
+	  'h1',
+	  { style: { backgroundColor: 'red' }, className: 'someClass' },
+	  'Hello, world!'
+	), document.getElementById('app'));
 
 /***/ },
 /* 1 */
@@ -20043,31 +20049,6 @@
 	var ReactMount = __webpack_require__(156);
 
 	module.exports = ReactMount.renderSubtreeIntoContainer;
-
-/***/ },
-/* 166 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var React = __webpack_require__(1);
-
-	var Layout = function Layout(props) {
-	  return React.createElement(
-	    'div',
-	    { className: 'app-container' },
-	    props.children
-	  );
-	};
-
-	var element = React.PropTypes.element;
-
-
-	Layout.propTypes = {
-	  children: element.isRequired
-	};
-
-	module.exports = Layout;
 
 /***/ }
 /******/ ]);
